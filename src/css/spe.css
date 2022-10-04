@@ -1,0 +1,22 @@
+.spe {
+  padding-bottom: 50px;
+}
+
+.spe .sMUl {
+  text-align: center;
+}
+
+.spe h3 {
+  font-weight: normal;
+}
+
+.spe p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.spe .speBtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

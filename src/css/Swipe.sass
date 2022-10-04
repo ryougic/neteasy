@@ -1,0 +1,47 @@
+.demo-swiper
+    height: 300px
+.rv-swiper
+    height: 280px
+    padding-bottom: 50px
+    &__slide
+    .rv-swiper-item
+        color: #fff
+        font-size: 20px
+        height: 150px
+        text-align: center
+        display: block !important
+        // align-items: center
+        // justify-content: center
+    &:nth-child(odd)
+        .rv-swiper-item
+            background-color: #3f45ff
+
+    &:nth-child(even)
+        .rv-swiper-item
+            background-color: lighten(#3f45ff, 8%)
+
+    img
+        display: block
+        box-sizing: border-box
+        width: 100%
+        height: 200px
+        padding: 0
+        background-color: #fff
+        pointer-events: none
+    .swiperP1
+        color: #000
+        font-size: 18px
+        text-align: left
+        overflow: hidden
+        white-space: nowrap
+        text-overflow: ellipsis
+        width: 100%
+    .swiperSpan1
+        display: block
+        color: #000
+        font-size: 16px
+        text-overflow: ellipsis
+        width: 355px !important
+        white-space: nowrap
+        overflow: hidden
+        text-align: left

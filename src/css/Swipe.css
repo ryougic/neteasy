@@ -1,0 +1,55 @@
+.demo-swiper {
+  height: 300px;
+}
+
+.rv-swiper {
+  height: 280px;
+  padding-bottom: 50px;
+}
+
+.rv-swiper .rv-swiper-item {
+  color: #fff;
+  font-size: 20px;
+  height: 150px;
+  text-align: center;
+  display: block !important;
+}
+
+.rv-swiper:nth-child(odd) .rv-swiper-item {
+  background-color: #3f45ff;
+}
+
+.rv-swiper:nth-child(even) .rv-swiper-item {
+  background-color: #686dff;
+}
+
+.rv-swiper img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  background-color: #fff;
+  pointer-events: none;
+}
+
+.rv-swiper .swiperP1 {
+  color: #000;
+  font-size: 18px;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.rv-swiper .swiperSpan1 {
+  display: block;
+  color: #000;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  width: 355px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: left;
+}

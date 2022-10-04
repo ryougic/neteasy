@@ -1,0 +1,61 @@
+.cateDIv {
+  height: 100%;
+}
+
+.rv-sidebar__wrapper {
+  height: 90%;
+}
+
+.rv-sidebar {
+  background: #f7f8fa;
+}
+
+#cataRightTopImg {
+  width: 100%;
+  height: 140px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+#cataRightTopImg img {
+  width: 100%;
+  height: 100%;
+}
+
+#subTitle {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+#subTitle hr {
+  width: 30px;
+  height: 1px;
+  border: none;
+  background: #000;
+}
+
+#cateMainContent {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+#cateMainContent li {
+  width: 30%;
+  height: 80px;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: center;
+}
+
+#cateMainContent li img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
